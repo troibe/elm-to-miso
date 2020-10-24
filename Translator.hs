@@ -7,6 +7,7 @@ replacements =
   [ (mkRegex "List\\.concat", "Prelude.concat")
   , (mkRegex "List\\.map", "Prelude.map")
   , (mkRegex "List\\.filterMap identity", "Maybe.mapMaybe id")
+  , (mkRegex "Maybe\\.withDefault", "Maybe.maybe")
   , (mkRegex "\\(\\((.*)\\) as config_", "(config_@\\1")
   , (mkRegex "Config \\{ config_ \\|", "config_ {")
   , (mkRegex "type ", "data ")
