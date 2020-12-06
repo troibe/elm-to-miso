@@ -15,6 +15,7 @@ replacements =
   , (mkRegex "Html msg", "Miso.View msg")
   , (mkRegex "Miso\\.Attibute\\.attribute ", "Miso.textProp ")
   , (mkRegex "Miso\\.node ", "Miso.nodeHtml ")
+  , (mkRegex "Miso\\.a ", "Miso.a_")
   , (mkRegex "Miso\\.input ", "Miso.input_ ")
   , (mkRegex "Miso\\.div ", "Miso.div_ ")
   , (mkRegex "Miso\\.span ", "Miso.span_ ")
